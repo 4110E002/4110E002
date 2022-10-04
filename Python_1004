@@ -44,22 +44,26 @@
 ## 整數的各種運算 [參考範例](https://www.w3schools.com/python/python_numbers.asp)  [Python Operators](https://www.w3schools.com/python/python_operators.asp)
 
 ```python
+x = input('Enter your name:')
+print('Hello, ' + x)
 
 
 ```
 
 ```python
-
-
-```
-
-```python
-
+a = eval(input("請輸入："))
+a
 
 ```
 
 ```python
+b=a+1
+b
 
+```
+
+```python
+print(10 + 5)
 
 ```
 
@@ -84,46 +88,81 @@ print(a[0:7])
 for x in "banana":
   print(x)
 ```
+thislist = ["apple", "banana", "cherry"]
+print(thislist)
 
 ```python
+thisset = {"apple", "banana", "cherry"}
+tropical = {"pineapple", "mango", "papaya"}
 
+thisset.update(tropical)
+
+print(thisset)
 
 ```
 
 ## 列表list的各種運算  [參考範例](https://www.w3schools.com/python/python_lists.asp)
 
 ```python
-
-
-```
-
-```python
-
+b = "Hello, World!"
+print(b[2:5])
 
 ```
 
 ```python
-
+a = "Hello, World!"
+print(a.lower())
 
 ```
 
 ```python
+myset = {"apple", "banana", "cherry"}
+print(type(myset))
 
+```
+
+```python
+a = 200
+b = 33
+
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
+else:
+  print("a is greater than b")
 
 ```
 ```python
+year= eval(input("請輸入年"))
 
+if ((year%400==0) or (year%4==0 and year%100!=0)):
+  print("{0} 是閏年".format(year))
+else:
+  print("{0} 不是閏年".format(year))
 
 ```
 ## 字典dict的各種運算 [參考範例](https://www.w3schools.com/python/python_dictionaries.asp)
 
 ```python
+x = float(1)     # x will be 1.0
+y = float(2.8)   # y will be 2.8
+z = float("3")   # z will be 3.0
+w = float("4.2") # w will be 4.2
 
 
 ```
+a = 33
+b = 200
+
+if b > a:
+  print("b is greater than a")
 
 ```python
-
+a = "Hello"
+b = "World"
+c = a + " " + b
+print(c)
 
 ```
 
